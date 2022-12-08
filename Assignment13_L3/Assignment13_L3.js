@@ -6,33 +6,33 @@ const countries = [
 ];
 
 //while
-//console.time("while");
+console.time("while");
 i = 0;
 while (i < countries.length) {
   console.log(countries[i][0]);
   i++;
 }
-//console.timeEnd("while");
+console.timeEnd("while");
 
 //for
-//console.time("for");
+console.time("for");
 
 for (let i = 0; i < countries.length; i++) {
   console.log(countries[i][0]);
 }
-//console.timeEnd("for");
+console.timeEnd("for");
 
 //for of
-//console.time("for of");
+console.time("for of");
 
 for (let i of countries) {
   console.log(i[0]);
 }
-//console.timeEnd("for");
+console.timeEnd("for of");
 
 //forEach
-//console.time("forEach");
+console.time("forEach");
 
 countries.forEach((j) => console.log(j[0]));
 
-//console.time("forEach");
+console.time("forEach");
